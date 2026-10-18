@@ -287,7 +287,7 @@ const ProductsServices = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full font-semibold"
           >
-            <span>📞 +91 83601-98383</span>
+            <a href="tel:+917009810989" className="hover:underline">📞 +91 70098-10989</a>
             <span>•</span>
             <span>One-Stop Printing & Branding Hub</span>
           </motion.div>
@@ -406,13 +406,12 @@ const ProductsServices = () => {
           <p className="text-xl mb-8 opacity-90">
             Let's bring your ideas to life — banners, boards, stickers, merchandise, or digital prints — we print it all with perfection.
           </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300"
-          >
-            Contact Us Now: +91 83601-98383
-          </motion.button>
+            <a
+              href="tel:+917009810989"
+              className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 inline-block"
+            >
+              Contact Us Now: +91 70098-10989
+            </a>
         </motion.div>
       </div>
 

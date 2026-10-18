@@ -117,7 +117,7 @@ const HeroSection = () => {
               >
                 <Play size={20} />
               </motion.div>
-              <span>Call: +91 83601-98383</span>
+                              <a href="tel:+917009810989" className="hover:underline">Call: +91 70098-10989</a>
             </span>
           </motion.button>
         </motion.div>

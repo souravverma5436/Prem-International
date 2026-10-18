@@ -113,11 +113,11 @@ const Footer = () => {
                 className="flex items-center space-x-3 group"
               >
                 <Phone size={20} className="text-blue-400 group-hover:text-blue-300 transition-colors" />
-                <a 
-                  href="tel:+918360198383" 
+                <a
+                  href="tel:+917009810989"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  +91 83601-98383
+                  +91 70098-10989
                 </a>
               </motion.div>
             </div>

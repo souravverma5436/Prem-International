@@ -108,8 +108,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91 83601 98383,70098-10989',
-      href: 'tel:+911612345678',
+      value: '+91 70098-10989',
+      href: 'tel:+917009810989',
       gradient: 'from-green-500 to-teal-500'
     },
     {
